@@ -1,5 +1,11 @@
 package com.example.kotlinrocket
 
+//In Kotlin, if a function doesn't explicitly return a value, it implicitly returns Unit.
+//Unit is a type that represents "no meaningful value" (similar to void in Java).
+//When used in string interpolation, Unit gets converted to its string representation, which is kotlin.Unit.
+
+//fun test() {}
+//println("${test()}") // Output: kotlin.Unit
 
 
 
